@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 50px;
+}
+
+nav img,
+.search-bar > img {
+    width: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.sidebar {
+    display: grid;
+    background-color: lightblue;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-item {
+    display: flex;
+}
+
+.header {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    background-color: white;
+}
+
+.upper-part-header {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.user-info {
+    display: flex;
+    /* justify-content: flex-end; */
+    align-items: center;
+}
+
+.lower-part-header {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.welcome {
+    display: flex;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    background-color: lightgrey;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: 3; */
+    gap: 15px;
+}
+
+.projects > div {
+    background-color: lightpink;
+}
+
+.announcements {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.trending {
+    display: flex;
+    flex-direction: column;
+}
+
+.user {
+    display: flex;
+}

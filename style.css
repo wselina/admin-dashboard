@@ -4,74 +4,79 @@
     padding: 0;
 }
 
+body {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    height: 100vh;
+}
+
 img {
     width: 50px;
 }
 
 nav img,
-.search-bar > img {
+.search-container > img,
+.card-actions {
     width: 20px;
-}
-
-.container {
-    display: grid;
-    grid-template-columns: 1fr 4fr;
 }
 
 .sidebar {
     display: grid;
+    grid-template-rows: auto auto 1fr;
+    gap: 20px;
     background-color: lightblue;
 }
 
-.title {
+.logo {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.nav-item {
+li {
     display: flex;
+    align-items: center;
+}
+
+.content {
+    display: grid;
+    grid-template-rows: 1fr 7fr;
+    height: 100%;
 }
 
 .header {
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
     background-color: white;
 }
 
-.upper-part-header {
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-}
-
-.search-bar {
+.search-container {
     display: flex;
     align-items: center;
 }
 
-.user-info {
+input {
+    width: 100%;
+}
+
+.user-info-container {
     display: flex;
-    /* justify-content: flex-end; */
+    justify-content: center;
     align-items: center;
 }
 
-.lower-part-header {
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-}
-
-.welcome {
+.welcome-container {
     display: flex;
     align-items: center;
 }
 
-.buttons {
+.buttons-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 }
 
-.main-content {
+main {
     display: grid;
     grid-template-columns: 3fr 1fr;
     background-color: lightgrey;
@@ -79,24 +84,40 @@ nav img,
 
 .projects {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    /* grid-template-rows: 3; */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-auto-rows: 1fr;
     gap: 15px;
 }
 
-.projects > div {
+.project {
+    display: grid;
+    grid-template-columns: 1rem 1fr;
+    grid-template-rows: 1fr auto;
     background-color: lightpink;
 }
 
-.announcements {
+.card-side {
+    background-color: yellow;
+    grid-row: 1 / 3;
+}
+
+.card-actions {
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    justify-content: flex-end;
+    width: auto;
+}
+
+.announcements-trending {
+    display: grid;
+    grid-gap: 15px;
+}
+
+.announcements {
+    background-color: lightgreen;
 }
 
 .trending {
-    display: flex;
-    flex-direction: column;
+    background-color: lightgreen;
 }
 
 .user {

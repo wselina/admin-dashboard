@@ -8,166 +8,209 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="sidebar">
-            <div class="title">
-                <img src="./icons/dummy.png" alt="Dashboard icon">
-                <h1>Dashboard</h1>
-            </div>
-            <nav>
-                <div class="nav-item">
+    <div class="sidebar">
+        <div class="logo">
+            <img src="./icons/dummy.png" alt="Dashboard icon">
+            <h1>Dashboard</h1>
+        </div>
+        <nav>
+            <ul>
+                <li>
                     <img src="./icons/dummy.png" alt="Home">
                     <a href="">Home</a>
-                </div>
-                <div class="nav-item">
+                </li>
+                <li>
                     <img src="./icons/dummy.png" alt="Profile">
                     <a href="">Profile</a>
-                </div>
-                <div class="nav-item">
+                </li>
+                <li>
                     <img src="./icons/dummy.png" alt="Messages">
                     <a href="">Messages</a>
-                </div>
-                <div class="nav-item">
+                </li>
+                <li>
                     <img src="./icons/dummy.png" alt="History">
                     <a href="">History</a>
-                </div>
-                <div class="nav-item">
+                </li>
+                <li>
                     <img src="./icons/dummy.png" alt="Tasks">
                     <a href="">Tasks</a>
-                </div>
-                <div class="nav-item">
+                </li>
+                <li>
                     <img src="./icons/dummy.png" alt="Communities">
                     <a href="">Communities</a>
-                </div>
-            </nav>
-            <nav>
-                <div class="nav-item">
+                </li>
+            </ul>
+        </nav>
+        <nav>
+            <ul>
+                <li>
                     <img src="./icons/dummy.png" alt="Settings">
                     <a href="">Settings</a>
-                </div>
-                <div class="nav-item">
+                </li>
+                <li>
                     <img src="./icons/dummy.png" alt="Support">
                     <a href="">Support</a>
-                </div>
-                <div class="nav-item">
+                </li>
+                <li>
                     <img src="./icons/dummy.png" alt="Privacy">
                     <a href="">Privacy</a>
-                </div>
-            </nav>
-        </div>
-        <div class="right-side">
-            <div class="header">
-                <div class="upper-part-header">
-                    <div class="search-bar">
-                        <img src="./icons/dummy.png" alt="Search button">
-                        <input type="text" placeholder="test">
-                    </div>
-                    <div class="user-info">
-                        <img src="./icons/dummy.png" alt="Notifications">
-                        <img src="./icons/dummy.png" alt="Avatar of logged in user">
-                        <div>Morgan Oakley</div>
-                    </div>
-                </div>
-                <div class="lower-part-header">
-                    <div class="welcome">
-                        <img src="./icons/dummy.png" alt="Avatar of logged in user">
-                        <div>
-                            <div>Hi there,</div>
-                            <div>Morgan Oakley(@morgan)</div>
-                        </div>
-                    </div>
-                    <div class="buttons">
-                        <button>New</button>
-                        <button>Upload</button>
-                        <button>Share</button>
-                    </div>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="content">
+        <div class="header">
+            <div class="search-container">
+                <img src="./icons/dummy.png" alt="Search button">
+                <input type="text" placeholder="test">
+            </div>
+            <div class="user-info-container">
+                <img src="./icons/dummy.png" alt="Notifications">
+                <img src="./icons/dummy.png" alt="Avatar of logged in user">
+                <div>Morgan Oakley</div>
+            </div>
+            <div class="welcome-container">
+                <img src="./icons/dummy.png" alt="Avatar of logged in user">
+                <div>
+                    <div>Hi there,</div>
+                    <div>Morgan Oakley(@morgan)</div>
                 </div>
             </div>
-            <div class="main-content">
-                <div>
-                    <h2>Your Projects</h2>
-                    <div class="projects">
-                        <div>
+            <div class="buttons-container">
+                <button>New</button>
+                <button>Upload</button>
+                <button>Share</button>
+            </div>
+        </div>
+        <main>
+            <div>
+                <h2>Your Projects</h2>
+                <div class="projects">
+                    <div class="project">
+                        <div class="card-side"></div>
+                        <div class="card-text">
                             <h3>Super Cool Project</h3>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur, dolorum? Voluptatum quasi deleniti molestiae excepturi! Quae repudiandae id ducimus praesentium.</p>
-                            <div></div>
                         </div>
-                        <div>
+                        <div class="card-actions">
+                            <img src="./icons/dummy.png" alt="Favorite">
+                            <img src="./icons/dummy.png" alt="Share">
+                            <img src="./icons/dummy.png" alt="Delete">
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="card-side"></div>
+                        <div class="card-text">
                             <h3>Less Cool Project</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque sunt assumenda, saepe id fugiat corporis blanditiis rem. Ea labore mollitia, nihil repellendus nesciunt molestias magni, rem officia accusantium iste aliquam dolores! Cumque magnam maxime consectetur! Quam ipsum aliquam ducimus incidunt.</p>
-                            <div></div>
                         </div>
-                        <div>
+                        <div class="card-actions">
+                            <img src="./icons/dummy.png" alt="Favorite">
+                            <img src="./icons/dummy.png" alt="Share">
+                            <img src="./icons/dummy.png" alt="Delete">
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="card-side"></div>
+                        <div class="card-text">
                             <h3>Impossible App</h3>
                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde, illo?</p>
-                            <div></div>
                         </div>
-                        <div>
+                        <div class="card-actions">
+                            <img src="./icons/dummy.png" alt="Favorite">
+                            <img src="./icons/dummy.png" alt="Share">
+                            <img src="./icons/dummy.png" alt="Delete">
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="card-side"></div>
+                        <div class="card-text">
                             <h3>Easy Peasy App</h3>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam optio sapiente sed et sit pariatur veritatis? Nihil molestiae ipsa mollitia non corporis eum nam quia aliquid, culpa, distinctio odit qui.</p>
-                            <div></div>
                         </div>
-                        <div>
+                        <div class="card-actions">
+                            <img src="./icons/dummy.png" alt="Favorite">
+                            <img src="./icons/dummy.png" alt="Share">
+                            <img src="./icons/dummy.png" alt="Delete">
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="card-side"></div>
+                        <div class="card-text">
                             <h3>Ad Blocker</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, laborum omnis nulla quaerat cumque deserunt veniam dolorem dolor cupiditate quam ut voluptatem reprehenderit eveniet voluptate?</p>
-                            <div></div>
                         </div>
-                        <div>
+                        <div class="card-actions">
+                            <img src="./icons/dummy.png" alt="Favorite">
+                            <img src="./icons/dummy.png" alt="Share">
+                            <img src="./icons/dummy.png" alt="Delete">
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="card-side"></div>
+                        <div class="card-text">
                             <h3>Money maker</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente temporibus quaerat distinctio eius esse est similique nulla nemo dicta. A rem ducimus fugiat cumque esse expedita ab enim rerum dolores explicabo alias corporis saepe ut amet quo accusamus doloribus molestiae magni distinctio, incidunt provident animi voluptates itaque est! Similique, id.</p>
-                            <div></div>
                         </div>
-                    </div>
-                </div>
-                <div class="announcements">
-                    <h2>Announcements</h3>
-                    <div>
-                        <h4>Site Maintenance</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi expedita illum molestiae cumque maxime quod?</p>
-                    </div>
-                    <div>
-                        <h4>Community Share Day</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, accusamus!</p>
-                    </div>
-                    <div>
-                        <h4>Updated Privacy Policy</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas eius ducimus aspernatur sequi, mollitia necessitatibus rerum illo quae obcaecati reprehenderit numquam nesciunt aliquid impedit officia.</p>
-                    </div>
-                </div>
-                <!-- hack??? -->
-                <div></div>
-                <div class="trending">
-                    <div class="user">
-                        <div class="icon"><img src="./icons/dummy.png" alt="Avatar of @tegan"></div>
-                        <div class="trendingItem">
-                            <div class="username">@tegan</div>
-                            <div class="userTitle">World Peace Builder</div>
-                        </div>
-                    </div>
-                    <div class="user">
-                        <div class="icon"><img src="./icons/dummy.png" alt="Avatar of @morgan"></div>
-                        <div class="trendingItem">
-                            <div class="username">@morgan</div>
-                            <div class="userTitle">Super Cool Project</div>
-                        </div>
-                    </div>
-                    <div class="user">
-                        <div class="icon"><img src="./icons/dummy.png" alt="Avatar of @kendall"></div>
-                        <div class="trendingItem">
-                            <div class="username">@kendall</div>
-                            <div class="userTitle">Life Changing App</div>
-                        </div>
-                    </div>
-                    <div class="user">
-                        <div class="icon"><img src="./icons/dummy.png" alt="Avatar of @alex"></div>
-                        <div class="trendingItem">
-                            <div class="username">@alex</div>
-                            <div class="userTitle">No Traffic Maker</div>
+                        <div class="card-actions">
+                            <img src="./icons/dummy.png" alt="Favorite">
+                            <img src="./icons/dummy.png" alt="Share">
+                            <img src="./icons/dummy.png" alt="Delete">
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+            <div>
+                <div class="announcements-trending">
+                    <div class="announcements">
+                        <h2>Announcements</h2>
+                        <div>
+                            <h4>Site Maintenance</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi expedita illum molestiae cumque maxime quod?</p>
+                        </div>
+                        <div>
+                            <h4>Community Share Day</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, accusamus!</p>
+                        </div>
+                        <div>
+                            <h4>Updated Privacy Policy</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas eius ducimus aspernatur sequi, mollitia necessitatibus rerum illo quae obcaecati reprehenderit numquam nesciunt aliquid impedit officia.</p>
+                        </div>
+                    </div>
+                    <div class="trending">
+                        <h2>Trending</h2>
+                        <div class="user">
+                            <div class="icon"><img src="./icons/dummy.png" alt="Avatar of @tegan"></div>
+                            <div class="trendingItem">
+                                <div class="username">@tegan</div>
+                                <div class="userTitle">World Peace Builder</div>
+                            </div>
+                        </div>
+                        <div class="user">
+                            <div class="icon"><img src="./icons/dummy.png" alt="Avatar of @morgan"></div>
+                            <div class="trendingItem">
+                                <div class="username">@morgan</div>
+                                <div class="userTitle">Super Cool Project</div>
+                            </div>
+                        </div>
+                        <div class="user">
+                            <div class="icon"><img src="./icons/dummy.png" alt="Avatar of @kendall"></div>
+                            <div class="trendingItem">
+                                <div class="username">@kendall</div>
+                                <div class="userTitle">Life Changing App</div>
+                            </div>
+                        </div>
+                        <div class="user">
+                            <div class="icon"><img src="./icons/dummy.png" alt="Avatar of @alex"></div>
+                            <div class="trendingItem">
+                                <div class="username">@alex</div>
+                                <div class="userTitle">No Traffic Maker</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
     </div>
 </body>
 </html>

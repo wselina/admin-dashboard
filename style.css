@@ -24,7 +24,7 @@ body {
     display: grid;
     grid-template-rows: auto auto 10fr;
     gap: 30px;
-    background-color: #8D8DAA;
+    background-color: #24A19C;
     padding: 30px;
     color: #FFF;
 }
@@ -57,9 +57,9 @@ header {
     display: grid;
     grid-template-columns: 2fr 1fr;
     background-color: #FFF;
-    padding: 10px 20px 20px;
+    padding: 10px 30px 10px;
     gap: 10px;
-    box-shadow: 4px 4px 5px rgb(0 0 0 / 15%);
+    box-shadow: 4px 4px 5px rgb(0 0 0 / 20%);
     position: relative;
 }
 
@@ -70,7 +70,7 @@ header {
 }
 
 .search-container > form > input {
-    background-color: #DFDFDE;
+    background-color: #ECE2E1;
     width: 95%;
     height: 20px;
     border: none;
@@ -99,7 +99,7 @@ header {
 }
 
 .buttons-container button {
-    background-color: #7897AB;
+    background-color: #F38BA0;
     width: 8rem;
     height: 2.5rem;
     border-radius: 20px;
@@ -108,12 +108,13 @@ header {
     font-weight: bold;
     color: white;
 }
+
 /* MAIN CONTENT */
 main {
     grid-column: 2 / 3;
     display: grid;
     grid-template-columns: 3fr 1fr;
-    background-color: #d4dde3;
+    background-color: #d9e2e2;
 }
 
 .projects {
@@ -136,11 +137,11 @@ main {
     grid-template-rows: 1fr auto;
     background-color: #FFF;
     border-radius: 15px;
-    box-shadow: 4px 4px 5px rgb(0 0 0 / 15%);
+    box-shadow: 4px 4px 5px rgb(0 0 0 / 20%);
 }
 
 .card-line {
-    background-color: #F56D91;
+    background-color: #E36387;
     grid-row: 1 / 3;
     border-radius: 12px 0 0 12px;
 }
@@ -174,7 +175,7 @@ main {
 }
 
 .line {
-    background-color: lightgrey;
+    background-color: #FAE3D9;
     height: 1px;
 }
 
@@ -195,15 +196,15 @@ main {
     display: flex;
     flex-direction: column;
     flex: 1;
-    justify-content: space-between;
+    justify-content: space-evenly;
     background-color: #FFF;
     padding: 25px;
     border-radius: 12px;
-    box-shadow: 4px 4px 5px rgb(0 0 0 / 15%);
+    box-shadow: 4px 4px 5px rgb(0 0 0 / 20%);
 }
 
 .announcements-trending a {
-    color: #F56D91;
+    color: #24A19C;
 }
 
 /* IMAGE SIZE */
@@ -248,10 +249,10 @@ img.icon {
 
 .announcements-trending a:hover {
     transition: .2s;
-    color: #8D8DAA;
+    color: #E36387;
 }
 
 .buttons-container button:hover {
     transition: .4s;
-    background-color: #F56D91;
+    background-color: #61C0BF;
 }

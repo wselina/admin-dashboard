@@ -247,6 +247,15 @@ img.icon {
     outline: none;
 }
 
+.search-container input[type="text"]{
+    color : transparent;
+    text-shadow : 0 0 0 #000;
+}
+
+.search-container input[type="text"]:focus{
+    outline : none;
+}
+
 .announcements-trending a:hover {
     transition: .2s;
     color: #E36387;
